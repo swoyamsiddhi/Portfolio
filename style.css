@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:url('astro.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.topnav{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: "Orbitron", sans-serif;
+    height: 50px;
+    width:150px;
+    border-radius: 5px;
+}
+.active:hover {
+    color: rgb(255, 255, 255);
+    font-family: "Comforter", sans-serif;
+    text-shadow: 2px 2px 2px rgb(127, 1, 1);
+    transform: scaleX(1.1);
+    transition: 0.1s;
+    letter-spacing: 2px;
+}
+.spacer {
+    flex-grow: 1;
+    color: rgb(37, 4, 4);
+    background-color: rgba(250, 235, 215, 0);
+    width: 30%;
+    margin-top: 30px;
+    height: 100%;
+}
+.spacer h1{
+    margin: 0;
+    padding: 20px;
+    font-family: "BBH Bartle", sans-serif;color: rgb(87, 87, 87);
+}
+.spacer h1 :hover{
+    font-size: 30px;
+    transform: scale(1.1);
+    transition: 0.1s;
+    scroll-behavior: smooth;
+}
+.spacer h2{
+    margin: 0;
+    padding: 20px;
+    font-family: "Bruno Ace", sans-serif;color: rgb(165, 161, 161);
+}
+.about{
+    background-image: url('astronaut-helmet-3840x2160-21334.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.about h1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Coral Pixels", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 70%;
+    font-size: 60px;
+    text-shadow: 20px 20px 20px #910defad;
+}
+.about h1:hover{
+    font-size: 70px;
+    transform: scale(1.02);
+    transition: 4s;
+    scroll-behavior: smooth;
+    font-family: "Coral Pixels", sans-serif;
+
+}
+.about h2{
+    text-align: center;
+    padding: 10px;
+    font-family: "Bruno Ace", sans-serif;
+    color: rgb(194, 190, 190);
+    margin-right: 0%;
+    margin-top: 3%;
+    margin-left: 70%;
+    font-size: 20px;
+    margin-right: 20px;
+    height: 250px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #b604f733, #020d4d7b);
+}
+.about h2:hover{
+    background-size: 110%;
+    transform: scale(1.02);
+    box-shadow: 20px 20px 0px #fbfbfc27;
+}
+.projects{
+    background-image: url('cyberpunk-destiny-2-3840x2160-11630\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.projects h1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Coral Pixels", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-right: 70%;
+    font-size: 60px;
+    text-shadow: 20px 20px 20px #910defad;
+}
+.video-container{
+    background: url('video-background.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
